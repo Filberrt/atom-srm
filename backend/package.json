@@ -1,0 +1,18 @@
+{
+  "name": "atom-srm-local-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.2.17",
+    "dotenv": "^16.4.7",
+    "input": "^1.0.1",
+    "pg": "^8.13.1",
+    "telegram": "^2.26.22",
+    "ws": "^8.21.0"
+  }
+}
